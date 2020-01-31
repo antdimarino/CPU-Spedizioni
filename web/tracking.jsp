@@ -139,7 +139,7 @@
                     <%out.print(coord.get(0).getCoord().getValue());%>],
                     13);
 
-                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYW50ZGltYXJpbm8iLCJhIjoiY2s1NGJ3b2Q3MDU2NjNscnVxeWJzNDF5eCJ9.2TE0hTXiWgtljNPsCFgo3Q', {
+                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=INSERT_YOUR_API', {
                     attribution: '© OpenStreetMap contributors',
                     id: 'mapbox/streets-v11'
                 }).addTo(map);

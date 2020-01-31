@@ -8,8 +8,8 @@ import java.util.Properties;
 
 public class Email {
 
-    private static String name = "cpuprogetto@gmail.com";
-    private static String password = "Antonio12!";
+    private static String name = "*********"; //INSERT YOUR EMAIL
+    private static String password = "******"; //INSERT YOUR PASSWORD
 
     public static void sendEmail(String[] destinatari, String code){
         String host = "smtp.gmail.com";

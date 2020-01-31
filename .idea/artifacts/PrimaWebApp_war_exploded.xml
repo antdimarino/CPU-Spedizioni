@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PrimaWebApp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PrimaWebApp_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ProgettoLogisticaProg3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ProgettoLogisticaProg3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/sqlite-jdbc-3.27.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jgrapht-bundle-1.3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/joda-time-2.10.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/joda-time-2.10.5-no-tzdb.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.mail.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/activation.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
